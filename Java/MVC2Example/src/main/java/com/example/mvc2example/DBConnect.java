@@ -1,4 +1,4 @@
-package com.example.demo02;
+package com.example.mvc2example;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -8,8 +8,8 @@ public class DBConnect {
     public static Connection getMySQLConnection() throws SQLException {
         Connection conn = null;
         String hostName = "localhost"; //127.0.0.1
-        String dbName = "account";
-        String userName = "root";
+        String dbName = "products";
+        String name = "root";
         String password = "";
         //Connection String: chuỗi kết nối( thông tin) đến csdl
         //String connURL = "jdbc:mysql://localhost:3306/account";
@@ -24,7 +24,7 @@ public class DBConnect {
 
         String connURL = "jdbc:mysql://"+hostName+":3306/"+dbName;
         //conn = DriverManager.getConnection(connURL, "root", "");
-        conn = DriverManager.getConnection(connURL, userName, password);
+        conn = DriverManager.getConnection(connURL, name, password);
         return conn;
     }
 

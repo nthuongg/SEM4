@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="89e7caa2-6e8f-4444-8ac2-e77e383f7bbf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../MVC2Example/src/main/java/com/example/mvc2example/DBConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MVC2Example/src/main/java/com/example/mvc2example/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MVC2Example/src/main/java/com/example/mvc2example/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MVC2Example/src/main/webapp/product.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo02/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo02/src/main/webapp/loginServletController.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo02/src/main/java/com/example/demo02/DBConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo02/src/main/java/com/example/demo02/DBConnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo02/src/main/java/com/example/demo02/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo02/src/main/java/com/example/demo02/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo02/src/main/java/com/example/demo02/LoginBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo02/src/main/java/com/example/demo02/LoginBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo02/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../demo02/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo02/src/main/webapp/logincontroller.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../demo02/src/main/webapp/logincontroller.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2gm3GnlvgsKBtqzrmqojudMcUZp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Tomcat 10.1.23" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.23" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="demo:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/demo_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="demo:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89e7caa2-6e8f-4444-8ac2-e77e383f7bbf" name="Changes" comment="" />
+      <created>1716288835600</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716288835600</updated>
+      <workItem from="1716288836726" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

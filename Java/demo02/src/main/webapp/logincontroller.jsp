@@ -22,7 +22,6 @@
     <%} else {%>
     <jsp:forward page="fail.jsp"/>
     <%}%>
-    %>
 </head>
 <body>
 
