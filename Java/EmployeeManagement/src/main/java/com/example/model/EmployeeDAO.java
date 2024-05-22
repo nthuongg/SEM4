@@ -14,7 +14,7 @@ public class EmployeeDAO {
 
         try {
             conn = DBConnect.getMySQLConnection();
-            String sql = "INSERT INTO Employees (FullName, Birthday, Address, Position, Department) VALUES (?, ?, ?, ?, ?);";
+            String sql = "INSERT INTO Employee(FullName, Birthday, Address, Position, Department) VALUES (?, ?, ?, ?, ?);";
             pstmt = conn.prepareStatement(sql);
             pstmt.setString(1, employee.getFullName());
             pstmt.setDate(2, employee.getBirthday());
@@ -43,7 +43,7 @@ public class EmployeeDAO {
 
         try {
             conn = DBConnect.getMySQLConnection();
-            String sql = "SELECT * FROM Employees";
+            String sql = "SELECT * FROM Employee";
             pstmt = conn.prepareStatement(sql);
             rs = pstmt.executeQuery();
             while ( rs.next() ) {
