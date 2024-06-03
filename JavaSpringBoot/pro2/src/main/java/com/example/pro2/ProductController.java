@@ -18,7 +18,7 @@ public class ProductController {
     private ProductRepository productRepository;
 
     // Step 1
-    @GetMapping("/")
+    @GetMapping("/ ")
     public String productList(Model model) {
         List<Product> products = productRepository.findAll();
         // Step 3
