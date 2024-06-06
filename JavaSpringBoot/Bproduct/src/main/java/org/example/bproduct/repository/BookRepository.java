@@ -1,2 +1,4 @@
-package org.example.bproduct.repository;public class BookRepository {
+package org.example.bproduct.repository;
+
+public class BookRepository {
 }

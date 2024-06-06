@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+</head>
+<body>
+<h1>Welcome,<span th:text="${username}"> User</span> </h1>
+<a th:href="@{/books}">Go to Book Management</a>
+<a th:href="@{/logout}">Logout</a>
+
+
+</body>
+</html>
