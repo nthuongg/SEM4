@@ -1,2 +1,8 @@
-package org.example.exam.repository;public interface VehicleRepository {
+package org.example.exam.repository;
+
+import org.example.exam.entity.Vehicle;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface VehicleRepository extends JpaRepository<Vehicle, Integer> {
+
 }
