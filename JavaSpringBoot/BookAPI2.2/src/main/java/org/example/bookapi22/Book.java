@@ -28,4 +28,7 @@ public class Book {
     private Set<Publisher> publishers;
 
 
+    public Book() {
+
+    }
 }
