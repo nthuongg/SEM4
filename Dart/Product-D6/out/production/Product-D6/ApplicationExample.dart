@@ -10,7 +10,7 @@ class Student {
 
   Student(this.id, this.name, this.phone);
 
-  Map<String, dynamic> toJson() { //dynamic là kiểu dữ liệu có thể chứa bất kì dữ liệu nào và có thể thay đổi trong quá trình thực thi
+  Map<String, dynamic> toJson() {
     return{
       'id': id,
       'name': name,
@@ -23,7 +23,7 @@ class Student {
 
   @override
   String toString() {
-    return 'id: $id, name: $name, phone: $phone';
+    return 'ApplicationExample{id: $id, name: $name, phone: $phone}';
   }
 }
 
@@ -72,13 +72,13 @@ void main() async{
 
 }
 Future<List<Student>> loadStudents(String filePath) async {
-  if(!File(filePath).existsSync()){ //nếu file json không tồn tại
-    await File(filePath).create();  // tạo file
-    await File(filePath).writeAsString(jsonEncode([])); // ghi 1 mảng rỗng vào file.
+  if(!File(filePath).existsSync()){
+    await File(filePath).create();
+    await File(filePath).writeAsString(jsonEncode([]));
     return[];
   }
-//Đọc nội dung file json, chuyển đổi thành danh sách các đối tượng Student.
-  String content = await File(filePath).readAsString(); //đọc nội dung file và lưu vào biến content
+
+  String content = await File(filePath).readAsString();
   List<dynamic> jsonData = jsonDecode(content);
   return jsonData.map((json) => Student.fromJson(json)).toList();
 }
