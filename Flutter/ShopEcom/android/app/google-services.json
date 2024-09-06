@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "109933873649",
+    "project_id": "fir-10bba",
+    "storage_bucket": "fir-10bba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109933873649:android:2fe4492a24920cc0dbdc50",
+        "android_client_info": {
+          "package_name": "com.example.shopecom"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxRM3mnUtQwTtzPWwuHCU22oADV4SxvVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109933873649:android:30c95c556cae0991dbdc50",
+        "android_client_info": {
+          "package_name": "com.example.shopping_cart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxRM3mnUtQwTtzPWwuHCU22oADV4SxvVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
