@@ -7,42 +7,6 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:109933873649:android:9e3fd1dc6f934479dbdc50",
-        "android_client_info": {
-          "package_name": "com.example.crudproduct"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "109933873649-13pmtpo9utov4rl3f8vt9nndr9cqb3m9.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBxRM3mnUtQwTtzPWwuHCU22oADV4SxvVU"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "109933873649-13pmtpo9utov4rl3f8vt9nndr9cqb3m9.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "109933873649-6skndqidrocp3t8tkr7eoft7bltsc7h1.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.shopecom"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
         "mobilesdk_app_id": "1:109933873649:android:2f865a9ce651b357dbdc50",
         "android_client_info": {
           "package_name": "com.example.restaurant_app"
